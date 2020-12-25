@@ -1,0 +1,30 @@
+.general {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.gauche {
+  border-style: solid;
+  border-color: blue;
+}
+
+.droite {
+  margin-left: 5px;
+}
+
+.gauche, .droite{
+  text-align: left;
+  /*width: 50%;*/
+  height: 800px;
+}
+
+.info {
+  margin-left: 10px;
+}
